@@ -103,6 +103,8 @@ public class BikeWale {
 		WebElement cruiser = driver.findElement(By.xpath("//*[@id=\"root\"]/div[2]/div[2]/div[2]/div[2]/section/div/div/div[2]/div[4]/div/div/ul/li[3]/a/div[2]"));
 		cruiser.click();
 		
+		Thread.sleep(3000);
+		
 		WebElement selectAnyBike = driver.findElement(By.xpath("//span[text()='BMW R 12']"));
 		selectAnyBike.click();
 		
